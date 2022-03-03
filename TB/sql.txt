@@ -1,0 +1,15 @@
+CREATE TABLE `tb` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `price` varchar(255) DEFAULT NULL,
+  `title` varchar(255) DEFAULT NULL,
+  `size` varchar(255) DEFAULT NULL,
+  `shop_name` varchar(255) DEFAULT NULL,
+  `company_name` varchar(255) DEFAULT NULL,
+  `detail_link` longtext DEFAULT NULL,
+  `thumb_pic_url` longtext DEFAULT NULL,
+  `fake_link` longtext DEFAULT NULL,
+  `real_link` longtext DEFAULT NULL,
+  `page_num` longtext DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4
+
